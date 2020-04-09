@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://uncontrolled.gdns" type="Script" id=2]
+[ext_resource path="res://controlled.gdns" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="uncontrolled" type="Sprite" parent="."]
+position = Vector2( 523, 372 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="controlled" type="Sprite" parent="."]
+position = Vector2( 523, 223 )
+texture = ExtResource( 1 )
+script = ExtResource( 3 )

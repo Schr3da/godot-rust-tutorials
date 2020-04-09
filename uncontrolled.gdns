@@ -1,0 +1,10 @@
+[gd_resource type="NativeScript" load_steps=2 format=2]
+
+[sub_resource type="GDNativeLibrary" id=1]
+entry/OSX.64 = "res://scripts/target/debug/libuncontrolled.dylib"
+dependency/OSX.64 = [  ]
+
+[resource]
+resource_name = "Uncontrolled"
+class_name = "Uncontrolled"
+library = SubResource( 1 )
