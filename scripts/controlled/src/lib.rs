@@ -1,7 +1,6 @@
 #[macro_use]
 extern crate gdnative;
 
-use gdnative::Input;
 use gdnative::GlobalConstants;
 
 
@@ -26,34 +25,45 @@ impl Controlled {
     }
 
     #[export]
-    unsafe fn _ready(&mut self, owner: gdnative::Sprite) {
+    unsafe fn _ready(&mut self, _owner: gdnative::Sprite) {
         godot_warn!("_ready called");
     }
 
     #[export]
-    unsafe fn _input(&mut self, mut owner: gdnative::Sprite, event: Option<gdnative::InputEvent>) {
-        let inputRef = Input::godot_singleton();
+    unsafe fn _input(&mut self, _owner: gdnative::Sprite, event: Option<gdnative::InputEvent>) {
         
-        if inputRef.is_key_pressed(GlobalConstants::KEY_A) {
-            self.left = true;
-        }
-    
-        if inputRef.is_key_pressed(GlobalConstants::KEY_D) {
-            self.right = true;
-        }
+        let e = match event {
+            Some(e) => { e },
+            None => { return; }
+        };
+        
+        match e.cast::<gdnative::InputEventKey>() {
+            Some(v) => {
+                let key_code = v.get_scancode();
+                let value = v.is_pressed();
 
-        if inputRef.is_key_pressed(GlobalConstants::KEY_W) {
-            self.up = true;
-        }
+                if key_code == GlobalConstants::KEY_A {
+                    self.left = value;
+                }
+                    
+                if key_code == GlobalConstants::KEY_D {
+                    self.right = value;
+                }
 
-        if inputRef.is_key_pressed(GlobalConstants::KEY_S) {
-            self.left = true;
-        }
+                if key_code == GlobalConstants::KEY_W {
+                    self.up = value;
+                }
 
+                if key_code == GlobalConstants::KEY_S {
+                    self.down = value;
+                }
+            },
+            _ => {}, 
+        };
     }
 
     #[export]
-    unsafe fn _process(&mut self, mut owner: gdnative::Sprite, delta: f64) {
+    unsafe fn _process(&mut self, mut owner: gdnative::Sprite, _delta: f64) {
         let mut pos = owner.get_position();
         
         if self.left {
