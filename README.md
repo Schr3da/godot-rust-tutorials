@@ -6,7 +6,13 @@ Video materials associated with this tutorial project can be found under my yout
 Basic Setup of GDNative script with Rust 
 https://youtu.be/6EItG3B-YH4
 
-Basic Keyboard Input
+Basic Keyboard Controls I
 https://youtu.be/qEHrRLLYc3Q
+
+Basic Keyboard Controls Input II
+https://www.youtube.com/watch?v=_Lxr6pAXBsQ
+
+Debugging GDNative Script with LLDB
+https://www.youtube.com/watch?v=aMaT6pyDocg
 
 
