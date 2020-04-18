@@ -15,4 +15,5 @@ https://www.youtube.com/watch?v=_Lxr6pAXBsQ
 Debugging GDNative Script with LLDB
 https://www.youtube.com/watch?v=aMaT6pyDocg
 
-
+File Watcher for Godot Native Script
+https://www.youtube.com/watch?v=McNgUqzmQkk
