@@ -18,5 +18,8 @@ https://www.youtube.com/watch?v=aMaT6pyDocg
 Basic File Watcher for Godot Native Script
 https://www.youtube.com/watch?v=McNgUqzmQkk
 
-Simple 2d Platformer (Tilemap)
+Simple Platformer (Tilemap)
 https://www.youtube.com/watch?v=SIesTvp_ZD8
+
+Simple Platformer (Gravity & Collision)
+https://www.youtube.com/watch?v=GKIUWbW4G9o&feature=youtu.be
