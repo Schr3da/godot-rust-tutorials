@@ -3,7 +3,7 @@ This is a tutorial project showing how to use the Rust Programming Language with
 
 Video materials associated with this tutorial project can be found under my youtube channel:
 
-### Basics
+## Basics
 
 Basic Setup of GDNative script with Rust 
 https://youtu.be/6EItG3B-YH4
@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=aMaT6pyDocg
 Basic File Watcher for Godot Native Script
 https://www.youtube.com/watch?v=McNgUqzmQkk
 
-### Simple Platformer
+## Simple Platformer
 
 Simple Platformer I (Tilemap)
 https://www.youtube.com/watch?v=SIesTvp_ZD8
