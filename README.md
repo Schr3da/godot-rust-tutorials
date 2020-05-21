@@ -3,6 +3,11 @@ This is a tutorial project showing how to use the Rust Programming Language with
 
 Video materials associated with this tutorial project can be found under my youtube channel:
 
+## Assets
+
+Huge Thanks to Adam Saltsman for the free tile assets
+https://adamatomic.itch.io/cavernas
+
 ## Basics
 
 Basic Setup of GDNative script with Rust 
@@ -30,3 +35,6 @@ https://www.youtube.com/watch?v=GKIUWbW4G9o&feature=youtu.be
 
 Simple Platformer III (Movement & Collision)
 https://www.youtube.com/watch?v=_n_5MDEquk4
+
+Simple Platformer IV (Modules extra)
+https://www.youtube.com/watch?v=0CUu111YJIk&feature=youtu.be
