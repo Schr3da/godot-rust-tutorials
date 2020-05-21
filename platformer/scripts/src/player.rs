@@ -1,9 +1,4 @@
-#[macro_use]
-extern crate gdnative;
-
-mod controls;
-
-use controls::{KeyboardControls, Direction};
+use crate::controls::{KeyboardControls, Direction};
 
 use gdnative::{GlobalConstants, Vector2, InputEvent, InputEventKey, KinematicBody2D};
 
