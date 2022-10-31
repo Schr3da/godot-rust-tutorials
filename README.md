@@ -38,3 +38,8 @@ https://www.youtube.com/watch?v=_n_5MDEquk4
 
 Simple Platformer IV (Modules extra)
 https://www.youtube.com/watch?v=0CUu111YJIk&feature=youtu.be
+
+## Entity-Component-System (Bevy ECS)
+
+Godot & Rust: Entity-Component-System (part I)
+https://www.youtube.com/watch?v=83wr4XsnfWc
