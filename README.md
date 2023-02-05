@@ -43,3 +43,10 @@ https://www.youtube.com/watch?v=0CUu111YJIk&feature=youtu.be
 
 Godot & Rust: Entity-Component-System (part I)
 https://www.youtube.com/watch?v=83wr4XsnfWc
+
+Godot & Rust: Entity-Component-System (part II)
+https://youtu.be/4One9EvMr_w
+
+
+Godot & Rust: Entity-Component-System (part III)
+https://youtu.be/NDFZiB6ssXk
