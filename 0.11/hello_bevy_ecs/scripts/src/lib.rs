@@ -1,5 +1,9 @@
 mod scene;
 mod ecs;
+mod components;
+mod entities;
+mod systems;
+mod scheduler;
 
 use gdnative::prelude::*;
 

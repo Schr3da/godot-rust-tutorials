@@ -22,5 +22,10 @@ impl HelloBevy {
         let entities = self.ecs.get_entities();
         godot_print!("Currently there are {} entities in the ecs", entities.len())
     }
+
+    #[method]
+    fn _process(&mut self, _: f64) {
+      self.ecs.update_world();
+    }
 }
 
